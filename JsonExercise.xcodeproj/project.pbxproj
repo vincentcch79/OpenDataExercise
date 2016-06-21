@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CC43A337BF7F7A77AD8E98A /* Pods_JsonExercise.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA34950F27D342DC03279301 /* Pods_JsonExercise.framework */; };
 		9FCB08B81D1938A300641C29 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08B71D1938A300641C29 /* AppDelegate.swift */; };
 		9FCB08BA1D1938A300641C29 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08B91D1938A300641C29 /* ViewController.swift */; };
 		9FCB08BD1D1938A300641C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB08BB1D1938A300641C29 /* Main.storyboard */; };
 		9FCB08BF1D1938A300641C29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB08BE1D1938A300641C29 /* Assets.xcassets */; };
 		9FCB08C21D1938A300641C29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FCB08C01D1938A300641C29 /* LaunchScreen.storyboard */; };
+		9FCB08CA1D1939C100641C29 /* hotelClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FCB08C91D1939C100641C29 /* hotelClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		518D50FF7B9E22712F084F80 /* Pods-JsonExercise.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonExercise.release.xcconfig"; path = "Pods/Target Support Files/Pods-JsonExercise/Pods-JsonExercise.release.xcconfig"; sourceTree = "<group>"; };
 		9FCB08B41D1938A300641C29 /* JsonExercise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JsonExercise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9FCB08B71D1938A300641C29 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9FCB08B91D1938A300641C29 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +25,9 @@
 		9FCB08BE1D1938A300641C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9FCB08C11D1938A300641C29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9FCB08C31D1938A300641C29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCB08C91D1939C100641C29 /* hotelClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hotelClass.swift; sourceTree = "<group>"; };
+		BA34950F27D342DC03279301 /* Pods_JsonExercise.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JsonExercise.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB127ECF9FC3820573545E88 /* Pods-JsonExercise.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JsonExercise.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JsonExercise/Pods-JsonExercise.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC43A337BF7F7A77AD8E98A /* Pods_JsonExercise.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				9FCB08B61D1938A300641C29 /* JsonExercise */,
 				9FCB08B51D1938A300641C29 /* Products */,
+				C52310067E9362CF81C264C4 /* Pods */,
+				AF561744F100BD0B298CF275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +69,26 @@
 				9FCB08BE1D1938A300641C29 /* Assets.xcassets */,
 				9FCB08C01D1938A300641C29 /* LaunchScreen.storyboard */,
 				9FCB08C31D1938A300641C29 /* Info.plist */,
+				9FCB08C91D1939C100641C29 /* hotelClass.swift */,
 			);
 			path = JsonExercise;
+			sourceTree = "<group>";
+		};
+		AF561744F100BD0B298CF275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA34950F27D342DC03279301 /* Pods_JsonExercise.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C52310067E9362CF81C264C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB127ECF9FC3820573545E88 /* Pods-JsonExercise.debug.xcconfig */,
+				518D50FF7B9E22712F084F80 /* Pods-JsonExercise.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9FCB08C61D1938A300641C29 /* Build configuration list for PBXNativeTarget "JsonExercise" */;
 			buildPhases = (
+				8F15404D69E0CD9B871F724D /* [CP] Check Pods Manifest.lock */,
 				9FCB08B01D1938A300641C29 /* Sources */,
 				9FCB08B11D1938A300641C29 /* Frameworks */,
 				9FCB08B21D1938A300641C29 /* Resources */,
+				7350CB990103562195CD504E /* [CP] Embed Pods Frameworks */,
+				608536F1C0147DC698082B5B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +160,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		608536F1C0147DC698082B5B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonExercise/Pods-JsonExercise-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7350CB990103562195CD504E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JsonExercise/Pods-JsonExercise-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F15404D69E0CD9B871F724D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9FCB08B01D1938A300641C29 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FCB08CA1D1939C100641C29 /* hotelClass.swift in Sources */,
 				9FCB08BA1D1938A300641C29 /* ViewController.swift in Sources */,
 				9FCB08B81D1938A300641C29 /* AppDelegate.swift in Sources */,
 			);
@@ -247,6 +326,7 @@
 		};
 		9FCB08C71D1938A300641C29 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB127ECF9FC3820573545E88 /* Pods-JsonExercise.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JsonExercise/Info.plist;
@@ -258,6 +338,7 @@
 		};
 		9FCB08C81D1938A300641C29 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518D50FF7B9E22712F084F80 /* Pods-JsonExercise.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JsonExercise/Info.plist;
@@ -286,6 +367,7 @@
 				9FCB08C81D1938A300641C29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
